@@ -7,8 +7,51 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
+h4,
+h5,
+h6,
+label,
+.btn,
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #333333!important;
+}
+h1 {
+    font-size: 38px;
+    letter-spacing: 0.05em;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+    z-index: 1000;
+}
+
+h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+}
+
+h4 {
+    color: #333333!important;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+}
+p {
+    font-size: 16px;
+    letter-spacing: 0.08em;
+}
+
+.paragraphe_bloc3 {
+    color: white;
+    text-align: center;
+}
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -25,6 +68,15 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+.citation {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.citation_signature {
+    font-size: 13px;
 }
 
 .bloc {
@@ -56,16 +108,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-center, .bg-l-edge, .bg-r-edge, .bg-t-edge, .bg-b-edge, .bg-tl-edge, .bg-bl-edge, .bg-tr-edge, .bg-br-edge, .bg-repeat {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
@@ -107,11 +150,7 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
+.d-bloc .icon-round, .d-bloc .icon-square, .d-bloc .icon-rounded, .d-bloc .icon-semi-rounded-a, .d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
 }
 
@@ -119,20 +158,8 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a,
+.d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -282,11 +309,6 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -639,21 +661,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
-
 .container {
     max-width: 1000px;
 }
@@ -676,18 +683,11 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -704,30 +704,14 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 100%;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 4rem;
 }
 
 .icons {
@@ -735,8 +719,16 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
+.footer_title_white {
     color: #FFFFFF!important;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.title_partenaires {
+    color: #FFFFFF!important;
+    text-align: center;
+    padding: 1rem;
 }
 
 .portfolio-thumb {
@@ -775,7 +767,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
