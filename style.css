@@ -263,7 +263,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0);
+    color: rgba(61, 61, 61);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -464,7 +464,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .mg-lg {
