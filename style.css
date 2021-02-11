@@ -57,6 +57,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
     font-weight: 700;
+    color:white;
 }
 
 #page-loading-blocs-notifaction {
@@ -695,6 +696,7 @@ a[data-lightbox]:hover img {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 3rem;
 }
 
 .med-width-whitespace {
